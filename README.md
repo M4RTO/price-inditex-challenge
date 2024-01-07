@@ -9,7 +9,7 @@ This command generate a docker container up and running:
 docker compose up -d
 ```
 
-With CURL or postman send http POST request with this url:
+With CURL or postman send http GET request with this url:
 ```
 curl --location 'localhost:8080/api/v1/prices/1?date=2020-06-1621:00&productId=35455'
 ```
